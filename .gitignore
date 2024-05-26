@@ -4,4 +4,8 @@ dist/
 build/
 *.pypirc
 
-*.egg-info
+*.egg-info/
+.eggs/
+*.egg
+
+test/
