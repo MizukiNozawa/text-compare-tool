@@ -1,4 +1,5 @@
 # text-compare-tool
+### English
 ## Description
 This is a tool for comparing two text files and highlighting the differences between them. It uses the `difflib` library to compute the differences and displays added and removed lines in different colors for easy visualization.
 
