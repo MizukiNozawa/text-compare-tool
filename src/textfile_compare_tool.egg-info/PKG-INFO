@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: textfile-compare-tool
-Version: 0.1.1
+Version: 0.1.0
 Summary: A tool to compare and highlight differences between text files.
 Home-page: https://github.com/MizukiNozawa/textfile-compare-tool.git
 Author: MizukiNozawa
