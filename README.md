@@ -30,6 +30,7 @@ Suppose you have two files, file1.txt and file2.txt. You can compare them like t
 compare-textfiles --file1 file1.txt --file2 file2.txt
 ```
 
+### 日本語
 ## 説明
 これは2つのテキストファイルを比較し、その違いをハイライト表示するツールです。`difflib`ライブラリを使用して差分を計算し、追加された行と削除された行を異なる色で表示して、視覚的に分かりやすくします。
 
