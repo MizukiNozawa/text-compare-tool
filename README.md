@@ -1,4 +1,4 @@
-# Text File Compare Tool
+# text-compare-tool
 
 ## Description (English)
 This is a tool for comparing two text files and highlighting the differences between them. It uses the `difflib` library to compute the differences and displays added and removed lines in different colors for easy visualization.
@@ -16,11 +16,46 @@ This is a tool for comparing two text files and highlighting the differences bet
 - 追加された行を緑色でハイライト
 - 削除された行を赤色でハイライト
 
-## Installation (English)
+## Installation
 You can install this tool using `pip`:
-```bash
+```
 pip install textfile-compare-tool
 ```
 
-
+## インストール
 このツールはpipを使用してインストールできます:
+```
+pip install textfile-compare-tool
+```
+
+## Usage
+To use this tool, run the following command:
+```
+compare-textfiles --file1 <path_to_file1> --file2 <path_to_file2>
+```
+
+## 使用方法
+このツールを使用するには、以下のコマンドを実行します:
+```
+compare-textfiles --file1 <file1へのパス> --file2 <file2へのパス>
+```
+
+## Command Line Arguments
+- `--file1`: Path to the first text file for comparison.
+- `--file2`: Path to the second text file for comparison.
+
+## コマンドライン引数
+- `--file1`: 比較する最初のテキストファイルへのパスです。
+- `--file2`: 比較する2番目のテキストファイルへのパスです。
+
+## Example
+Suppose you have two files, file1.txt and file2.txt. You can compare them like this:
+```
+compare-textfiles --file1 file1.txt --file2 file2.txt
+```
+
+## 例
+例えば、file1.txtとfile2.txtという2つのファイルがあるとします。それらを次のように比較できます:
+```
+compare-textfiles --file1 file1.txt --file2 file2.txt
+```
