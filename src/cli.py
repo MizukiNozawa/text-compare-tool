@@ -1,6 +1,6 @@
 import argparse
-from compare import compare_files
-from highlight import highlight_diff
+from compare import compare_files  # 相対インポートに変更
+from highlight import highlight_diff  # 相対インポートに変更
 
 def main():
     parser = argparse.ArgumentParser(description='2つのテキストファイルを比較し、差分を表示するツール')
@@ -16,3 +16,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
