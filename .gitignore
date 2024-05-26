@@ -3,9 +3,7 @@ __pycache__/
 dist/
 build/
 *.pypirc
-
 *.egg-info/
 .eggs/
 *.egg
-
 test/
