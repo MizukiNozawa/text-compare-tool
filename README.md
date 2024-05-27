@@ -11,7 +11,7 @@ This is a tool for comparing two text files and highlighting the differences bet
 ## Installation
 You can install this tool using `pip`:
 ```
-pip install textfile-compare-tool
+pip install text-compare-tool
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ compare-textfiles --file1 file1.txt --file2 file2.txt
 ## インストール
 このツールはpipを使用してインストールできます:
 ```
-pip install textfile-compare-tool
+pip install text-compare-tool
 ```
 
 ## 使用方法
