@@ -13,7 +13,7 @@ setup(
     description='A tool to compare and highlight differences between text files.',
     author='MizukiNozawa',
     author_email='s2222090@stu.musashino-u.ac.jp',
-    url='https://github.com/MizukiNozawa/textfile-compare-tool.git',
+    url='https://github.com/MizukiNozawa/text-compare-tool.git',
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     classifiers=[
